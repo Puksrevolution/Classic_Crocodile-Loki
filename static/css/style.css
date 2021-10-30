@@ -1,10 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Aclonica&family=Acme&family=Akaya+Telivigala&family=Alike+Angular&family=Almendra:ital,wght@0,700;1,700&family=Amarante&family=Amaranth:ital,wght@0,700;1,700&family=Arima+Madurai:wght@900&family=Averia+Serif+Libre:wght@700&family=Bangers&family=Bellota:wght@700&family=Bowlby+One+SC&family=Calistoga&family=Chango&family=Chicle&family=Cinzel+Decorative:wght@700;900&family=Coiny&family=Corben:wght@700&family=Croissant+One&family=Days+One&family=Eagle+Lake&family=Emilys+Candy&family=Expletus+Sans:wght@700&family=Fredericka+the+Great&family=Fredoka+One&family=Fugaz+One&family=Gabriela&family=Griffy&family=IM+Fell+English&family=IM+Fell+English+SC&family=Itim&family=Krona+One&family=Lakki+Reddy&family=Macondo+Swash+Caps&family=MedievalSharp&family=Metal+Mania&family=Milonga&family=Mirza:wght@700&family=Mystery+Quest&family=New+Rocker&family=Nunito:wght@200;300;400;600;700;900&family=Oleo+Script:wght@700&family=Original+Surfer&family=Otomanopee+One&family=Overlock:wght@900&family=Palanquin+Dark:wght@700&family=Paprika&family=Patua+One&family=Pirata+One&family=Rakkas&family=Rampart+One&family=Red+Rose:wght@700&family=Righteous&family=Rowdies:wght@700&family=Rum+Raisin&family=Salsa&family=Seymour+One&family=Shojumaru&family=Shrikhand&family=Sigmar+One&family=Smythe&family=Spicy+Rice&family=Stoke&family=Titan+One&family=Trade+Winds&family=Uncial+Antiqua&family=Vast+Shadow&family=Wendy+One&display=swap');
+
+/*
+font-family: 'ABeeZee', sans-serif;
+font-family: 'Aclonica', sans-serif;
+font-family: 'Acme', sans-serif;
+font-family: 'Almendra', serif;
+font-family: 'Amarante', cursive;
+font-family: 'Amaranth', sans-serif;
+font-family: 'Arima Madurai', cursive;
+font-family: 'Averia Serif Libre', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Bellota', cursive;
+font-family: 'Calistoga', cursive;
+font-family: 'Chicle', cursive;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Croissant One', cursive;
+font-family: 'Days One', sans-serif;
+font-family: 'Emilys Candy', cursive;
+
+font-family: 'Fredericka the Great', cursive;
+
+font-family: 'Gabriela', serif;
+font-family: 'Griffy', cursive;
+font-family: 'IM Fell English', serif;
+font-family: 'IM Fell English SC', serif;
+font-family: 'Itim', cursive;
+font-family: 'Krona One', sans-serif;
+font-family: 'Lakki Reddy', cursive;
+font-family: 'Macondo Swash Caps', cursive;
+font-family: 'MedievalSharp', cursive;
+font-family: 'Metal Mania', cursive;
+font-family: 'Milonga', cursive;
+font-family: 'Mirza', cursive;
+font-family: 'Mystery Quest', cursive;
+font-family: 'New Rocker', cursive;
+font-family: 'Oleo Script', cursive;
+font-family: 'Original Surfer', cursive;
+font-family: 'Otomanopee One', sans-serif;
+font-family: 'Overlock', cursive;
+font-family: 'Palanquin Dark', sans-serif;
+font-family: 'Paprika', cursive;
+font-family: 'Patua One', cursive;
+font-family: 'Pirata One', cursive;
+font-family: 'Rakkas', cursive;
+font-family: 'Rampart One', cursive;
+font-family: 'Red Rose', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Rowdies', cursive;
+font-family: 'Rum Raisin', sans-serif;
+font-family: 'Salsa', cursive;
+font-family: 'Seymour One', sans-serif;
+font-family: 'Shojumaru', cursive;
+font-family: 'Shrikhand', cursive;
+font-family: 'Sigmar One', cursive;
+font-family: 'Smythe', cursive;
+font-family: 'Spicy Rice', cursive;
+font-family: 'Stoke', serif;
+font-family: 'Titan One', cursive;
+font-family: 'Trade Winds', cursive;
+font-family: 'Uncial Antiqua', cursive;
+font-family: 'Vast Shadow', cursive;
+font-family: 'Wendy One', sans-serif;
+*/
+
 
 body {
 	background: hsl(108, 86%, 20%);
 	overflow: hidden;
 	margin: 0;
-	font-family: 'Balsamiq Sans', cursive;
+	/*font-family: 'Cinzel Decorative', cursive;*/
+	/*font-family: 'Emilys Candy', cursive;*/
+	/*font-family: 'Fredericka the Great', cursive;*/
+	font-family: 'Metal Mania', cursive;
+}
+
+.navbar-brand {
+	filter: drop-shadow(0 0 0.1rem black) drop-shadow(0 0 0.1rem black);
+}
+
+.navbar-nav .nav-item a {
+	color: #FFD221;
+	text-shadow: 0 0 0.1rem black,
+				 0 0 0.1rem black,
+				 0 0 0.1rem black;
+}
+
+.nav-link {
+	font-family: 'Nunito', sans-serif;
+	font-size: xx-large;
 }
 
 .bg {
@@ -119,11 +202,11 @@ body {
 	transform-style: preserve-3d;
 	transform: translate(-50%, -50%);
 	font-size: 9em;
-	letter-spacing: -0.06em;
+	/*letter-spacing: -0.06em;*/
 	animation: hide 8s linear forwards;
-	padding: 0 0.2em;
-	line-height: 1;
-	border: 0.02em solid black;
+	padding: 0.2em;
+	line-height: 0.9;
+	/*border: 0.02em solid black;*/
 }
 
 #retrigger--1:checked~.pane .logo {
