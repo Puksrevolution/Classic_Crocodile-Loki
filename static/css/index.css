@@ -17,9 +17,7 @@ font-family: 'Cinzel Decorative', cursive;
 font-family: 'Croissant One', cursive;
 font-family: 'Days One', sans-serif;
 font-family: 'Emilys Candy', cursive;
-
 font-family: 'Fredericka the Great', cursive;
-
 font-family: 'Gabriela', serif;
 font-family: 'Griffy', cursive;
 font-family: 'IM Fell English', serif;
@@ -63,15 +61,17 @@ font-family: 'Vast Shadow', cursive;
 font-family: 'Wendy One', sans-serif;
 */
 
+/*font-family: 'Cinzel Decorative', cursive;*/
+/*font-family: 'Emilys Candy', cursive;*/
+/*font-family: 'Fredericka the Great', cursive;*/
+/*font-family: 'Metal Mania', cursive;*/
+/*font-family: 'Milonga', cursive;*/
 
 body {
 	background: hsl(108, 86%, 20%);
 	overflow: hidden;
 	margin: 0;
-	/*font-family: 'Cinzel Decorative', cursive;*/
-	/*font-family: 'Emilys Candy', cursive;*/
-	/*font-family: 'Fredericka the Great', cursive;*/
-	font-family: 'Metal Mania', cursive;
+	font-family: 'Mirza', cursive;
 }
 
 .navbar-brand {

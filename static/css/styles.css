@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?&family=Nunito:wght@200;300;400;600;700;900');
+
+body {
+	background: black;
+	overflow: hidden;
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+}
+
+.navbar-brand {
+	filter: drop-shadow(0 0 0.1rem black) drop-shadow(0 0 0.1rem black);
+}
+
+.navbar-nav .nav-item a {
+	color: #FFD221;
+	text-shadow: 0 0 0.1rem black,
+				 0 0 0.1rem black,
+				 0 0 0.1rem black;
+}
+
+.nav-link {
+	font-size: xx-large;
+}
