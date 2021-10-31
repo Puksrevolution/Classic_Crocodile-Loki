@@ -74,6 +74,12 @@ body {
 	font-family: 'Mirza', cursive;
 }
 
+* {
+	margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
 .navbar-brand {
 	filter: drop-shadow(0 0 0.1rem black) drop-shadow(0 0 0.1rem black);
 }
@@ -81,8 +87,8 @@ body {
 .navbar-nav .nav-item a {
 	color: #FFD221;
 	text-shadow: 0 0 0.1rem black,
-				 0 0 0.1rem black,
-				 0 0 0.1rem black;
+		0 0 0.1rem black,
+		0 0 0.1rem black;
 }
 
 .nav-link {
@@ -454,4 +460,3 @@ body {
 #retrigger--1:checked~.buttons .button--2 {
 	display: block;
 }
-
