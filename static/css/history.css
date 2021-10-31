@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?&family=Nunito:wght@200;300;400;600;700;900&family=Mirza:wght@700');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	overflow: hidden;
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+}
+
+.navbar-nav .nav-item a {
+	color: #FFD221;	
+}
+
+.nav-link {
+	font-size: xx-large;
+}
+
+.main {
+	margin: 3rem 0.5rem;
+}
+
+.main__header {
+	color: #FFD221;
+	font-family: 'Mirza', cursive;
+	font-size: 5rem;
+	text-transform: uppercase;
+}
